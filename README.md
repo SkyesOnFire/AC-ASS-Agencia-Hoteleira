@@ -1,3 +1,9 @@
+# TEILOR-MIOTTO
+# AGATHA-CHRISTIE
+# EDUARDA-GREIN
+# PEDRO-LUCHO
+
+
 # mongodb-springboot
 The project demonstrates basic CRUD examples using MongoDB and SpringBoot
 
