@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mdb-spring-boot/mdb-spring-boot.iml" filepath="$PROJECT_DIR$/mdb-spring-boot/mdb-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mongodb-springboot.iml" filepath="$PROJECT_DIR$/.idea/mongodb-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new-hotel/new-hotel.iml" filepath="$PROJECT_DIR$/new-hotel/new-hotel.iml" />
     </modules>
   </component>
 </project>

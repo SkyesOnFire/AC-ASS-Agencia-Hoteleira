@@ -1,5 +1,9 @@
-package hotel.JWT;
+package hotel.controller;
 
+import hotel.config.JwtTokenUtil;
+import hotel.service.JwtUserDetailsService;
+import hotel.model.JwtRequest;
+import hotel.model.JwtResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

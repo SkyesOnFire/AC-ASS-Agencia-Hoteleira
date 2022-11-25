@@ -1,4 +1,4 @@
-package hotel.JWT;
+package hotel.model;
 
 import java.io.Serializable;
 

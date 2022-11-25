@@ -1,4 +1,4 @@
-package hotel.JWT;
+package hotel.config;
 
 import java.io.Serializable;
 import java.util.Date;
