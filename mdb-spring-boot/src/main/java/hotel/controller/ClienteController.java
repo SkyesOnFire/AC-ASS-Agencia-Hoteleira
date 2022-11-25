@@ -35,13 +35,13 @@ public class ClienteController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @RequestMapping(value = "/pessoa", method =  RequestMethod.POST)
+    @RequestMapping(value = "/cliente", method =  RequestMethod.POST)
     public ClienteItem Post(@Validated @RequestBody ClienteItem clienteItem)
     {
         return clienteRepository.save(clienteItem);
     }
 
-    @RequestMapping(value = "/pessoa/trocarNome/{id}", method =  RequestMethod.PUT)
+    @RequestMapping(value = "/cliente/trocarNome/{id}", method =  RequestMethod.PUT)
     public ResponseEntity<ClienteItem> Put(@PathVariable(value = "id") String id, @Validated @RequestBody ClienteItem newCliente)
     {
         Optional<ClienteItem> oldCliente = clienteRepository.findById(id);
@@ -55,7 +55,7 @@ public class ClienteController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @RequestMapping(value = "/pessoa/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/cliente/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Object> Delete(@PathVariable(value = "id") String id)
     {
         Optional<ClienteItem> clienteItem = clienteRepository.findById(id);
